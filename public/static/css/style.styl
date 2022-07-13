@@ -1,0 +1,79 @@
+color1 = #b5d6b2
+color2 = #fdd700
+color3 = #2caaff
+body
+    background-color #f9f9f9
+    font-size 15px
+    font-family: 'Roboto', sans-serif;
+a
+.btn
+    &:active
+    &:focus
+        box-shadow none
+        outline none
+nav
+    background-color #fff
+    border-bottom 2px solid color1
+    .navbar-brand
+        img
+            width 49px
+    .navbar-nav
+        li.nav-item
+            a.nav-link
+                border 1px solid #fff
+                border-radius 5px
+                color #000
+                font-size .9em
+                font-weight bold
+                margin-right 5px
+                padding 5px 16px !important
+                &:hover
+                    color color1
+            a.btn
+                border 1px solid color1
+                color #000
+                &:hover
+                    background-color color2
+            ul.dropdown-menu
+                border-radius 0px 0px 4px 4px
+                background-color #fff
+                border 0px
+                top 144% !important
+                li
+                    border-bottom 1px solid #fff
+                    a
+                        color #000
+                        display block
+                        float none
+                        width 100%
+                        i
+                            color color3
+                    &:last-child
+                        border-bottom 0px
+                    &:hover
+                        background-color #b5d6b2
+        li.link-acc
+            overflow hidden
+            a
+                display inline-block
+                float left
+                margin-right 0px !important
+                &:first-child
+                    border-radius 4px 0px 0px 4px
+                    border-right 1px solid #fff
+                &:last-child
+                    border-radius 0px 4px 4px 0px
+                    //border-right 1px solid #fff
+                img
+                    position relative
+                    top -1px
+                    margin-right 6px
+                    width 30px
+        li.link-user
+            overflow initial
+            a
+                border 0px !important
+                &:hover
+                    background-color transparent !important
+
+
